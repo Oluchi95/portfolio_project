@@ -1,3 +1,30 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+  font-family: 'Playfair Display', serif;;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 96px;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 64px;
+}
+
+p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  font-family: "Poppins", sans-serif;
+}
+
 .hero{
     background-color: #F9F7FE;
     text-align: center;
@@ -35,4 +62,38 @@
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+.project-desciption .btn-contact-outline {
+  color: #6C63FF;
+  border: 1px solid #6c63ff;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  font-family: "Poppins", sans-serif;
+}
+
+.project-desciption {
+  padding: 120px 60px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+
+  .project-desciption {
+    padding: 0;
+    text-align: center;
+  }
 }
