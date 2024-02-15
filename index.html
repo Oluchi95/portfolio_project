@@ -2,68 +2,103 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Priscilla Ikeri</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
     <script
       src="https://kit.fontawesome.com/ddc3ee268a.js"
       crossorigin="anonymous"
     ></script>
-
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Poppins:wght@500&display=swap"
-      rel="stylesheet"
-    />
-    <title>Portfolio</title>
   </head>
   <body>
-    <div class="about-section container">
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="about-section-content">
-            <h1 class="mb-4">👋 Hello, I'm Priscilla Ikeri</h1>
-            <h2 class="mb-4">
-              Full Stack Web Developer, based in Lagos, Nigeria.
-            </h2>
-            <p class="mb-5">
-              Embarking on the journey of learning to code? Look no further -
-              this workshop is an exhilarating adventure awaiting your
-              exploration. Engage in a dynamic learning experience where
-              challenges seamlessly intertwine with comprehensive explanations.
-              Dive into thought-provoking exercises that not only sharpen your
-              coding skills but also elevate your problem-solving prowess.
+    <div class="hero">
+      <p>👋 Hello, I am</p>
+      <h1>Priscilla Ikeri</h1>
+      <h2 class="mb-5">Full Stack Web Developer, based in Lagos, Nigeria.</h2>
+      <div>
+        <a href="#" class="btn btn-branding">Contact me</a>
+      </div>
+    </div>
+    <p class="text-center m-5">Featured below are some of my best projects</p>
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col d-none d-lg-block">
+          <img src="images/yogurt.png" class="img-fluid" alt="" />
+        </div>
+        <div class="col">
+          <div class="project-desciption">
+            <h2 class="mb-5">Yogurt Project</h2>
+            <p class="mb-5 text-muted">
+              In the distant land of Yogurtopia, beyond the creamy peaks of
+              Vokalia and the refreshing valleys of Consonantia, there resides
+              the luscious world of yogurt. Here, amidst the swirling hills of
+              flavor, the delectable texts live harmoniously. Nestled in
+              Spoonmarksgrove, right on the coast of the Yogurt Semantics, a
+              delightful river named Yuden flows gently, carrying the richness
+              of creamy goodness to all corners of this yogurt paradise.
             </p>
-            <!-- <p class="mb-5">
-              The carefully curated curriculum ensures an immersive learning
-              journey, complemented by well-structured homework assignments and
-              manageable deadlines that serve as your guiding compass. These
-              intentional elements are designed to keep you focused, motivated,
-              and steadily progressing toward mastering the art of coding.
-            </p>
-            <p class="mb-5">
-              Seize the opportunity to transform challenges into triumphs, as
-              every line of code becomes a brushstroke on the canvas of your
-              coding odyssey. Elevate your coding journey with a workshop that
-              goes beyond teaching - it inspires and propels you toward coding
-              excellence.
-            </p> -->
-            <a href="" class="btn btn-projects">See my projects</a>
+            <a href="" class="btn btn-branding-outline"> Learn more </a>
           </div>
         </div>
-        <div class="col-lg-6">
-          <img src="images/picture.JPG" alt="" class="img-fluid" />
+      </div>
+      <div class="row mb-5">
+        <div class="col">
+          <div class="project-desciption">
+            <h2 class="mb-5">Weather App</h2>
+            <p class="mb-5 text-muted">
+              In a distant land, behind word mountains and far from Vokalia and
+              Consonantia, resides the captivating story of blind texts. Along
+              Bookmarksgrove, at the coast of Semantics, a river named Duden
+              flows, mirroring the dynamic nature of language and weather. This
+              narrative, akin to your Weather App, encapsulates the
+              interconnected elements, creating an engaging user experience in
+              the vast expanse of lexical landscapes.
+            </p>
+            <a href="" class="btn btn-branding-outline"> Learn more </a>
+          </div>
+        </div>
+        <div class="col d-none d-lg-block">
+          <img src="images/weather.png" class="img-fluid" alt="" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col d-none d-lg-block">
+          <img src="images/dictionary.png" class="img-fluid" alt="" />
+        </div>
+        <div class="col">
+          <div class="project-desciption">
+            <h2 class="mb-5">Dictionary App</h2>
+            <p class="mb-5 text-muted">
+              In the vast expanse, nestled behind the eloquent word mountains, a
+              world unfolds far from the borders of Vokalia and Consonantia.
+              Here, amidst the enchanting Bookmarksgrove, the blind texts find
+              their abode. Distanced yet interconnected, they reside right at
+              the coast of the Semantics, an expansive language ocean that
+              weaves stories and narratives. Serenely flowing through this
+              captivating landscape is a petite river named Duden, adding a
+              touch of poetic charm to this rich and diverse terrain.
+            </p>
+            <a href="" class="btn btn-branding-outline"> Learn more </a>
+          </div>
         </div>
       </div>
     </div>
